@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Sweep10
-# Generated: Sun Mar 18 15:20:32 2018
+# Generated: Sun Mar 18 16:28:58 2018
 ##################################################
 
 if __name__ == '__main__':
@@ -50,7 +50,7 @@ class sweep10(grc_wxgui.top_block_gui):
         self.wxgui_fftsink2_0 = fftsink2.fft_sink_c(
         	self.GetWin(),
         	baseband_freq=0,
-        	y_per_div=10,
+        	y_per_div=20,
         	y_divs=10,
         	ref_level=-10,
         	ref_scale=2.0,
